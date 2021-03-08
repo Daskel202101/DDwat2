@@ -1,0 +1,87 @@
+body {
+    background-image: url("wall2.png");
+    position:fixed;
+}
+
+.head UL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head li {
+    display: block;
+    padding: 0 20px;
+    color: cornflowerblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .20s;
+}
+
+li a {
+    text-decoration: none;
+    color: beige;
+}
+
+
+.head ul:hover li a:hover{
+    font-size: 30px;
+    background-color:darkcyan;
+} 
+h1{
+    color: burlywood; 
+    text-align: center;
+}
+
+h2 {
+text-align: left;
+}
+.product {
+	display: block;
+	border: 1px solid #b5e9a7;
+	border-radius: 3px;
+	position: relative;
+	background:#001E47 ;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: blue;
+	z-index: 0;
+	height: 300px;
+}
+
+h3 {
+text-align: right;
+}
+
+
+    font-size: 27px;
+    color: brown;
+}
+
+a{
+    color: bisque;
+}
+.product-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}

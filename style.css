@@ -1,0 +1,30 @@
+body {
+    background-image: url("wall.png");
+}
+
+UL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: block;
+    padding: 0 20px;
+    color: cornflowerblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .20s;
+}
+
+li a {
+    text-decoration: none;
+    color: beige;
+}
+
+
+ul:hover li a:hover{
+    font-size: 30px;
+    background-color:darkcyan;
+} 
